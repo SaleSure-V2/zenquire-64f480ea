@@ -28,11 +28,13 @@ function Index() {
       <section className="mx-auto flex min-h-[88vh] max-w-6xl flex-col justify-center px-6 md:px-10">
         <div className="font-mono-label fade-in">№ 00 — Premise</div>
         <h1 className="editorial-heading fade-in mt-8 text-5xl md:text-7xl lg:text-[5.5rem]">
-          Systems that act
+          Most things happen
           <br />
-          when it actually matters.
+          at the wrong time.
         </h1>
         <p className="fade-in mt-10 max-w-xl text-xl text-muted-foreground md:text-2xl">
+          Systems that act when it actually matters.
+          <br />
           Not before. Not after. Not eventually.
         </p>
       </section>
@@ -64,7 +66,7 @@ function Index() {
           <div className="font-mono-label">The model</div>
           <div>
             <p className="editorial-heading text-3xl md:text-4xl">
-              Every system we build aligns three things.
+              Every outcome depends on three things.
             </p>
             <ol className="mt-12 space-y-8">
               {[
@@ -92,7 +94,7 @@ function Index() {
       <section className="mx-auto max-w-6xl px-6 py-24 md:px-10">
         <div className="flex items-baseline justify-between border-b border-border pb-6">
           <div>
-            <div className="font-mono-label">Field notes</div>
+            <div className="font-mono-label">Recent signals</div>
             <h2 className="editorial-heading mt-3 text-3xl md:text-4xl">Signals</h2>
           </div>
           <Link to="/signals" className="font-mono-label hover:text-foreground">
@@ -114,6 +116,9 @@ function Index() {
             <h3 className="editorial-heading text-5xl md:text-6xl">SaleSure</h3>
             <p className="mt-8 max-w-xl text-2xl text-foreground/80">
               Starts conversations when buying intent is real — not guessed.
+            </p>
+            <p className="mt-4 max-w-xl text-base text-muted-foreground">
+              Built on the same signal → context → execution model.
             </p>
             <a
               href="https://salesure.ai"

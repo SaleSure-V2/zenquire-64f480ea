@@ -16,7 +16,7 @@ export function SiteFooter() {
           <div>
             <div className="font-mono-label text-foreground">Zenquire</div>
             <p className="mt-6 max-w-xs text-sm leading-relaxed text-muted-foreground">
-              Systems built around the moment something should happen.
+              Systems that act when it matters.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-12 md:gap-20">
