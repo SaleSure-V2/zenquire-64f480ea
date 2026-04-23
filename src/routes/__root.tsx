@@ -37,7 +37,7 @@ export const Route = createRootRoute({
           "Zenquire builds systems that act at the right moment based on real-world signals.",
       },
       { name: "author", content: "Zenquire" },
-      { property: "og:title", content: "Zenquire" },
+      { property: "og:title", content: "Zenquire — Systems that act when it actually matters." },
       {
         property: "og:description",
         content: "Systems that act when it actually matters.",
@@ -45,6 +45,12 @@ export const Route = createRootRoute({
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Zenquire" },
+      { name: "twitter:title", content: "Zenquire — Systems that act when it actually matters." },
+      { name: "description", content: "Zenquire builds systems that act at the right moment based on real-world signals." },
+      { property: "og:description", content: "Zenquire builds systems that act at the right moment based on real-world signals." },
+      { name: "twitter:description", content: "Zenquire builds systems that act at the right moment based on real-world signals." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3b085b43-85f8-4a96-8db2-b8ab0d2e5804/id-preview-0c3e5b05--9bd7c1ca-6444-4a3b-991d-f55a25076961.lovable.app-1776930736833.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3b085b43-85f8-4a96-8db2-b8ab0d2e5804/id-preview-0c3e5b05--9bd7c1ca-6444-4a3b-991d-f55a25076961.lovable.app-1776930736833.png" },
     ],
     links: [
       {
