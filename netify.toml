@@ -1,0 +1,3 @@
+[build]
+  command = "vinxi build"
+  publish = "dist/client"
