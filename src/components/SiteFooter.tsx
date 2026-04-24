@@ -78,7 +78,7 @@ export function SiteFooter() {
           </div>
         </div>
         <div className="mt-16 flex flex-col justify-between gap-3 border-t border-border pt-8 text-xs text-muted-foreground md:flex-row">
-          <div>Zenquire Solutions Private Limited — India</div>
+          <div>Zenquire Solutions Private Limited</div>
           <div>© {new Date().getFullYear()} Zenquire</div>
         </div>
       </div>
